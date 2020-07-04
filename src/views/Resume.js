@@ -84,7 +84,6 @@ export default (props) =>{
                     - Added the ability for the user to turn on/off the extra icons feature <br/>
                     - Integrated JSpdf & html2canvas to allow the user to save the page as a pdf file <br/>
                     - Interactive user experience to get the results they want in a fun way and save the end result <br/>
-                    Website Link: <a href='http://ec2-18-217-98-165.us-east-2.compute.amazonaws.com/' target = "_blank"> The Randomizer </a> <br/>
                     Project Link: <a href='https://github.com/R2DEV0/TheRandomizer' target = "_blank"> TheRandomizer/Github </a> 
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Contract   Manager — Shipment   Tracking   App   (Python/Django)</span> <br/>
@@ -104,8 +103,7 @@ export default (props) =>{
                     - Constructed a random unique question generator that pulls from the mongo database using javaScript and axios <br/>
                     - The app allows for the user to add and/or delete quiz questions using API calls to the server. (CRUD)<br/>
                     - Applied npm software and reactive score display for the quiz results page after quiz has been completed <br/>
-                    Website Link: <a href='http://ec2-18-216-149-216.us-east-2.compute.amazonaws.com/' target = "_blank"> Quiz of Death </a> <br/>
-                    project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank"> QuizofDeath/Github </a> 
+                    project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank"> Quiz of Death </a> 
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Angry Duck Game (C#/Unity)</span> <br/>
                     My first game created using Unity and C#. <br/>

@@ -82,8 +82,8 @@ export default () =>{
             </div>
             <div className="row justify-content-between mt-1 projs">
                 <div className="col-lg-4 mt-1 text-center proj1">
-                <a data-tip data-for='Quiz'><p><a href="http://ec2-18-216-149-216.us-east-2.compute.amazonaws.com/" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Quiz of Death (MERN)</a></p></a>
-                <a data-tip data-for='Quiz'><a href="http://ec2-18-216-149-216.us-east-2.compute.amazonaws.com/" target= "_blank"><img className="col-10" src={Pic} alt="Quiz App" style={{height:"80%", width:"auto"}}
+                <a data-tip data-for='Quiz'><p><a href="https://github.com/R2DEV0/Quiz_of_Death" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Quiz of Death (MERN)</a></p></a>
+                <a data-tip data-for='Quiz'><a href="https://github.com/R2DEV0/Quiz_of_Death" target= "_blank"><img className="col-10" src={Pic} alt="Quiz App" style={{height:"80%", width:"auto"}}
                         onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='auto')} 
                         onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='auto')}
                     /></a></a> 
