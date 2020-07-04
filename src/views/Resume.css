@@ -1,0 +1,31 @@
+h1{
+    text-decoration: underline;
+}
+@media screen and (min-width: 993px) {
+    .resume{
+        background-color: rgba(245, 245, 245, 0.877);
+        border-radius: 5px;
+        max-height: 800px;
+        overflow-y: scroll;
+    }
+}
+
+/* // Tablet // */
+@media screen and (max-width: 992px) {
+    .resume{
+        background-color: rgba(245, 245, 245, 0.877);
+        border-radius: 5px;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+}
+
+/* // Phone // */
+@media screen and (max-width: 600px) {
+    .resume{
+        background-color: rgba(245, 245, 245, 0.877);
+        border-radius: 5px;
+        max-height: 550px;
+        overflow-y: auto;
+    }
+}

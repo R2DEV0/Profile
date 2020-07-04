@@ -1,0 +1,136 @@
+/* // PC screen // */
+@media screen and (min-width: 993px) {
+    .Kevin{
+        color: white;
+        background-color: rgba(32, 30, 30, 0.692);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5%;
+    }   
+
+    .proj1{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .proj2{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .proj3{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .link2{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .link3{
+        margin-right: 3%;
+    }
+
+    .resumebtn{
+        margin-right: 2%;
+    }
+}
+
+/* // Tablet // */
+@media screen and (max-width: 992px) {
+    .Kevin{
+        color: white;
+        background-color: rgba(32, 30, 30, 0.692);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5%;
+    }   
+
+    .proj1{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .proj2{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .proj3{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .link2{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .resumebtn{
+        margin-top: 2%;
+    }
+
+    .scroll{
+        max-height: 600px;
+        max-width: 600px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+/* // Phone // */
+@media screen and (max-width: 600px) {
+    .Kevin{
+        color: white;
+        background-color: rgba(32, 30, 30, 0.692);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+
+    .proj1{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+    }
+
+    .proj2{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .proj3{
+        height: 250px;
+        background-color: rgba(32, 30, 30, 0.459);
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .link2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .resumebtn{
+        margin-top: 2%;
+    }
+
+    .scroll{
+        max-height: 550px;
+        max-width: 600px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
