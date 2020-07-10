@@ -5,6 +5,8 @@ import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,Uncontroll
 import Logo1 from '../LinkedIn2.png';
 import Logo2 from '../Github2.png';
 import Logo3 from '../mail2.png';
+import FadeIn from 'react-fade-in';
+import Fade from 'react-reveal/Fade';
 
 
 export default (props) =>{
@@ -18,47 +20,47 @@ export default (props) =>{
     return(
         <div>
             <div>
-                <Navbar className="navbar navbar-dark bg-dark" light expand="md">
-                <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink><Link to= "/" style={{color:'white'}}> <button className='btn btn-outline-light'>Back Home</button></Link></NavLink>
-                        </NavItem>
-                        <li class="nav-link"> </li>
-                        <NavItem className="mt-3">  
-                            <a href="https://www.linkedin.com/in/kevin-chancey-a736169b/">
-                                <img src={Logo1} style={{height:"30px"}} 
-                                    onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
-                                    onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
-                                </img>
-                            </a>
-                        </NavItem>
-                        <li class="nav-link"> </li>
-                        <NavItem className="mt-3">
-                            <a href="https://github.com/R2DEV0">
-                                <img src={Logo2} style={{height:"30px"}}
-                                    onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
-                                    onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
-                                </img>
-                            </a>
-                        </NavItem>
-                        <li class="nav-link"> </li>
-                        <NavItem className="mt-3">
-                            <a href="mailto:r2devo@gmail.com">
-                                <img src={Logo3} style={{height:"30px", borderRadius:"5px"}}
-                                    onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
-                                    onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
-                                </img>
-                            </a>
-                        </NavItem>
-                    </Nav>
-                    </Collapse>
-            </Navbar>
-        </div>
-
+            <Navbar className="navbar navbar-dark bg-dark" light expand="md">
+                    <NavbarToggler onClick={toggle} />
+                        <Collapse isOpen={isOpen} navbar>
+                        <Nav className="mr-auto" navbar>
+                            <NavItem>
+                                <Fade left><NavLink><Link to = "/" style={{color:'white'}}> <button className='btn btn-outline-light'>Back Home</button></Link></NavLink></Fade>
+                            </NavItem>
+                            <li class="nav-link"> </li>
+                            <Fade top><NavItem className="mt-3">  
+                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/">
+                                    <img src={Logo1} style={{height:"30px"}} 
+                                        onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
+                                        onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
+                                    </img>
+                                </a>
+                            </NavItem></Fade>
+                            <li class="nav-link"> </li>
+                            <Fade bottom><NavItem className="mt-3">
+                                <a href="https://github.com/R2DEV0" target = "_blank">
+                                    <img src={Logo2} style={{height:"30px"}}
+                                        onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
+                                        onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
+                                    </img>
+                                </a>
+                            </NavItem></Fade>
+                            <li class="nav-link"> </li>
+                            <Fade right><NavItem className="mt-3">
+                                <a href="mailto:r2devo@gmail.com">
+                                    <img src={Logo3} style={{height:"30px", borderRadius:"5px"}}
+                                        onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
+                                        onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
+                                    </img>
+                                </a>
+                            </NavItem></Fade>
+                        </Nav>
+                        </Collapse>
+                </Navbar>
+            </div>
         <div className="container">
             <div className="col-12 mt-2 resume">
+            <FadeIn delay='100' transitionDuration='500'>
                 <h1> Kevin R. Chancey </h1>
                 <p>(206) 519-4870 - <a href="mailto:r2devo@gmail.com">Email</a></p>
                 <p>Full-Stack Software Developer</p>
@@ -142,6 +144,7 @@ export default (props) =>{
                     Created online version of dispatch sceduling for on-the-go updating & company wide visibility <br/>
                     Created online warehouse equipment and vehicle rental tracking system for accountability leading to business savings
                 </p>
+            </FadeIn>
             </div>
         </div>
     </div>
