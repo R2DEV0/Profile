@@ -66,7 +66,7 @@ export default () =>{
             <div className="col-10 offset-1 text-center Kevin">
             <FadeIn delay='150' transitionDuration='800'>
                 <h1 id="main"><span style={{color:"red", fontWeight:"bold"}}>Hey</span> I'm Kevin</h1>
-                <p> I am a Full-Stack web developer with experience working in: <br/> Python(Django) - C#(asp.Net) - MongoDB, Express, React, NodeJS (MERN)
+                <p> I am a Full-Stack web developer with experience working in: <br/> Python(Django) - C#(Entity, LinQ, .Net, ASP.NET) - (MERN) MongoDB, Express, React, Node.js
                 </p>
                 My Story:
                 <p> After leaving my hometown of Las <span style={{color:"red", fontWeight:"bold"}}>Vegas</span> to join the Air Force, I began my life journey in Alaska, working in transportation. I spent the next 
@@ -97,7 +97,7 @@ export default () =>{
                     /></a></a>
                 </div></Fade>
                 <Fade right><div className="col-lg-4 mt-1 text-center proj3">
-                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>The Randomizer (C#)</a></p></a>
+                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>The Randomizer (MERN)</a></p></a>
                             <a data-tip data-for='differenciator'><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank"><img className="col-12" draggable="false" src={Pic3} alt="TheRandomizer" style={{height:"80%", width:"auto"}}
                             onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='auto')} 
                             onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='auto')}

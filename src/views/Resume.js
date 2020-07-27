@@ -66,16 +66,10 @@ export default (props) =>{
                 <p>Full-Stack Software Developer</p>
                 <hr/>
                 <h4 style={{color:'red'}}>Professional Skills</h4>
-                <p>Python(Django) - C#(asp.Net) - MongoDB, Express, React, NodeJS (MERN)</p>
-                <p>- HTML5 - CSS3 - JQuery - Git - Github - SQL - MySQL - Mongoose - Deployment - BootStrap - Working in Teams - Problem Solving <br/>
-                - Postman - VS Code - API - RESTful API - MVC - MVT - Wireframe - AWS - JavaScript - Remote Work Experience</p>
-                <hr/>
-                <h4 style={{color:'red'}}>Professional Experience</h4>
-                <p><span style={{fontWeight:"bold"}}>J Taylor Education</span> / Tacoma, WA - Software Developer  June 2020 - Present (freelance) </p>
-                <p><span style={{fontWeight:"bold"}}>Apex Facility Resources</span> / Kent, WA - Operations & Dispatch  Feb 2019 - March 2020 </p>
-                <p><span style={{fontWeight:"bold"}}>KelTrans Freight Solutions</span> / Las Vegas, NV - Operations & Accounts Payable/Receivable  Sep 2016 - Feb 2019 </p>
-                <p><span style={{fontWeight:"bold"}}>Ace Relocation Systems</span> / Kent, WA - Ops Assistant Manager Oct 2014 - March 2016 </p>
-                <p><span style={{fontWeight:"bold"}}>U.S. Air Force</span> / Elmendorf AFB, AK - Vehicle Operations Feb 2011 - Nov 2014</p>
+                <p>Python(Django) - C#(.Net, ASP.NET, Entity, LINQ) - (MERN) MongoDB, Express, React, Node.js, JavaScript</p>
+                <p>- HTML5 - CSS - Bootstrap - MySQL - MongoDB - AWS - Git & Github - Object-oriented programming(OOP) - MVC - JSON - RESTful API<br/>
+                - Software development life cycle - AJAX - Test-driven development - Postman - Responsive design - Remote work - Collaboration & team building<br/>
+                - Integrate well with teams - Attention to detail - Conflict resolution - Critical thinking - Quick study - Dedicated - Career & succress oriented</p>
                 <hr/>
                 <h4 style={{color:'red'}}>Technical Projects</h4>
                 <p><span style={{fontWeight:"bold"}}>The Randomizer - Education App (JavaScript/MERN)</span> <br/>
@@ -115,6 +109,18 @@ export default (props) =>{
                     - Added audio background throughout all levels, sound effects when an enemy is hit, and responsive level changer <br/>
                     - Project Link: <a href='https://github.com/R2DEV0/Angry_Duck_Game' target = "_blank"> Angry Duck Game </a> 
                 </p>
+                <p><span style={{fontWeight:"bold"}}>More Projects!</span> <br/>
+                    My City Faves (Django/Python): <a href='https://github.com/R2DEV0/My_Faves' target = "_blank"> Project Link </a><br/>
+                    Portfolio (MERN): <a href='https://github.com/R2DEV0/Profile' target = "_blank"> Project Link </a><br/>
+                    Email Blaster 3000 (Django/Python): <a href='https://github.com/R2DEV0/Email_Blaster_3000' target = "_blank"> Project Link </a><br/>
+                </p>
+                <hr/>
+                <h4 style={{color:'red'}}>Professional Experience</h4>
+                <p><span style={{fontWeight:"bold"}}>J Taylor Education</span> / Tacoma, WA - Software Developer  June 2020 - Present (freelance) </p>
+                <p><span style={{fontWeight:"bold"}}>Apex Facility Resources</span> / Kent, WA - Operations & Dispatch  Feb 2019 - March 2020 </p>
+                <p><span style={{fontWeight:"bold"}}>KelTrans Freight Solutions</span> / Las Vegas, NV - Operations & Accounts Payable/Receivable  Sep 2016 - Feb 2019 </p>
+                <p><span style={{fontWeight:"bold"}}>Ace Relocation Systems</span> / Kent, WA - Ops Assistant Manager Oct 2014 - March 2016 </p>
+                <p><span style={{fontWeight:"bold"}}>U.S. Air Force</span> / Elmendorf AFB, AK - Vehicle Operations Feb 2011 - Nov 2014</p>
                 <hr/>
                 <h4 style={{color:'red'}}>Education</h4>
                 <p><span style={{fontWeight:"bold"}}>Coding Dojo</span> / Seattle, WA - Full Stack Developer Certiﬁcate <br/>
