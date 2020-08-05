@@ -97,7 +97,7 @@ export default () =>{
                     /></a></a>
                 </div></Fade>
                 <Fade right><div className="col-lg-4 mt-1 text-center proj3">
-                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>The Randomizer (MERN)</a></p></a>
+                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>DCAP (MERN)</a></p></a>
                             <a data-tip data-for='differenciator'><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank"><img className="col-12" draggable="false" src={Pic3} alt="TheRandomizer" style={{height:"80%", width:"auto"}}
                             onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='auto')} 
                             onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='auto')}
@@ -105,7 +105,7 @@ export default () =>{
                     </div></Fade>
                     <ReactTooltip id='differenciator' place="bottom" type='success' effect="float">
                         <span>
-                            Small randomizer app for school curriculums <br/> being adopted accross the world!<br/>
+                            Randomizer app for school curriculums <br/> being adopted accross the world!<br/>
                         </span>
                     </ReactTooltip>
                     <ReactTooltip id='contract' place="bottom" type='info' effect="float">

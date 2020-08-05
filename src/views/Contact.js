@@ -8,6 +8,7 @@ import Logo1 from '../LinkedIn2.png';
 import Logo2 from '../Github2.png';
 import Logo3 from '../mail2.png';
 import Fade from 'react-reveal/Fade';
+import FadeIn from 'react-fade-in';
 
 
 export default () =>{
@@ -87,26 +88,22 @@ export default () =>{
             :
             <></>
             }
-
+            <FadeIn delay='150' transitionDuration='800'>
             <div className='col-12 text-center'>
                 <form className="col-lg-4 form col-centered" onSubmit={(e) => {formSubmit(e, message, email, name)}}>
-
                     <div className='form-group'>
                         <input onChange={(e) => setName(e.target.value)} name="name" type="text" className='form-control' value={name} placeholder="Your Name" required/>
                     </div>
-
                     <div className='form-group'>
                         <input onChange={(e) => setEmail(e.target.value)} name="email" type="email" className='form-control' value={email} placeholder="Your Email Address" required/>
                     </div>
-
                     <div className='form-group'>
                         <textarea onChange={(e) => setMessage(e.target.value)} name="message" rows='5' className='form-control' value={message} type="text" placeholder="Please write your message here" required/>
                     </div>
-
-                    <button className="btn btn-primary">Contact Me!</button>
-
+                    <button className="col-12 btn btn-info btn-lg">Contact Me!</button>
                 </form>
             </div>
+            </FadeIn>
             <footer className='footer'>
                 <p>© 2020 Kevin Chancey - <a href="http://kevinchancey.xyz" target="_blank" rel="noopener noreferrer">Check Me Out</a></p>
             </footer>
