@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem,NavbarText} from 'reactstrap';
+import {Collapse,Navbar,NavbarToggler,Nav,NavItem,NavLink} from 'reactstrap';
 import './Main.css';
 import { Link } from '@reach/router';
 import Pic from '../quizpic.png';
@@ -32,7 +32,7 @@ export default () =>{
                             </NavItem>
                             <li class="nav-link"> </li>
                             <Fade top><NavItem className="mt-3">  
-                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/">
+                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/" rel="noopener noreferrer">
                                     <img src={Logo1} style={{height:"30px"}} 
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -41,7 +41,7 @@ export default () =>{
                             </NavItem></Fade>
                             <li class="nav-link"> </li>
                             <Fade bottom><NavItem className="mt-3">
-                                <a href="https://github.com/R2DEV0" target = "_blank">
+                                <a href="https://github.com/R2DEV0" target = "_blank" rel="noopener noreferrer">
                                     <img src={Logo2} style={{height:"30px"}}
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -83,22 +83,22 @@ export default () =>{
             </div>
             <div className="row justify-content-between mt-1 projs">
             <Fade left><div className="col-lg-4 mt-1 text-center proj1">
-                <a data-tip data-for='Quiz'><p><a href="https://github.com/R2DEV0/Quiz_of_Death" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Quiz of Death (MERN)</a></p></a>
-                <a data-tip data-for='Quiz'><a href="https://github.com/R2DEV0/Quiz_of_Death" target= "_blank"><img className="col-10" src={Pic} alt="Quiz App" style={{height:"80%", width:"auto"}}
+                <a data-tip data-for='Quiz'><p><a href="https://github.com/R2DEV0/Quiz_of_Death" target= "_blank" rel="noopener noreferrer" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Quiz of Death (MERN)</a></p></a>
+                <a data-tip data-for='Quiz'><a href="https://github.com/R2DEV0/Quiz_of_Death" rel="noopener noreferrer" target="_blank"><img className="col-10" src={Pic} alt="Quiz App" style={{height:"80%", width:"auto"}}
                         onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='auto')} 
                         onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='auto')}
                     /></a></a> 
                 </div></Fade>
                 <Fade bottom><div className="col-lg-4 mt-1 text-center proj2">
-                    <a data-tip data-for='contract'><p><a href="https://github.com/John-W-Stevens/contract_manager" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Contract Manager (Python)</a></p></a>
-                    <a data-tip data-for='contract'><a href="https://github.com/John-W-Stevens/contract_manager" target= "_blank"><img className="col-12" src={Pic2} alt="Contract Manager" style={{height:"80%", width:"97%"}}
+                    <a data-tip data-for='contract'><p><a href="https://github.com/John-W-Stevens/contract_manager" rel="noopener noreferrer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>Contract Manager (Python)</a></p></a>
+                    <a data-tip data-for='contract'><a href="https://github.com/John-W-Stevens/contract_manager" rel="noopener noreferrer" target= "_blank"><img className="col-12" src={Pic2} alt="Contract Manager" style={{height:"80%", width:"97%"}}
                         onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='100%')} 
                         onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='97%')}
                     /></a></a>
                 </div></Fade>
                 <Fade right><div className="col-lg-4 mt-1 text-center proj3">
-                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>DCAP (MERN)</a></p></a>
-                            <a data-tip data-for='differenciator'><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank"><img className="col-12" draggable="false" src={Pic3} alt="TheRandomizer" style={{height:"80%", width:"auto"}}
+                        <a data-tip data-for='differenciator'><p><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" rel="noopener noreferrer" style={{color:"white"}} onMouseEnter={(e) => HoverIn(e.target.style.fontWeight = 'bold')} onMouseLeave={(e) => HoverIn(e.target.style.fontWeight = 'normal')}>DCAP (MERN)</a></p></a>
+                            <a data-tip data-for='differenciator'><a href="https://github.com/R2DEV0/TheRandomizer" target= "_blank" rel="noopener noreferrer"><img className="col-12" draggable="false" src={Pic3} alt="TheRandomizer" style={{height:"80%", width:"auto"}}
                             onMouseEnter={(e) => HoverIn(e.target.style.height = '82%', e.target.style.width ='auto')} 
                             onMouseLeave={(e) => HoverOut(e.target.style.height = '80%', e.target.style.width ='auto')}
                         /></a></a>

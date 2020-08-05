@@ -29,7 +29,7 @@ export default (props) =>{
                             </NavItem>
                             <li class="nav-link"> </li>
                             <Fade top><NavItem className="mt-3">  
-                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/">
+                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/" rel="noopener noreferrer">
                                     <img src={Logo1} style={{height:"30px"}} 
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -38,7 +38,7 @@ export default (props) =>{
                             </NavItem></Fade>
                             <li class="nav-link"> </li>
                             <Fade bottom><NavItem className="mt-3">
-                                <a href="https://github.com/R2DEV0" target = "_blank">
+                                <a href="https://github.com/R2DEV0" target = "_blank" rel="noopener noreferrer">
                                     <img src={Logo2} style={{height:"30px"}}
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -73,15 +73,15 @@ export default (props) =>{
                 <hr/>
                 <h4 style={{color:'red'}}>Technical Projects</h4>
                 <p><span style={{fontWeight:"bold"}}>The Randomizer - Education App (JavaScript/MERN)</span> <br/>
-                    An application for teachers to use the curriculum adopted by schools all over the US and other countries for <a href='https://www.jtayloreducation.com/' target= "_blank">J Taylor Education</a> <br/>
+                    An application for teachers to use the curriculum adopted by schools all over the US and other countries for <a href='https://www.jtayloreducation.com/' target= "_blank" rel="noopener noreferrer">J Taylor Education</a> <br/>
                     The app includes features such as: <br/>
                     - Created a Random generator button for results to display on screen <br/>
                     - Used Javascript to allow user to manually change results, re-establishing the state  <br/>
                     - Added the ability for the user to turn on/off the extra icons feature <br/>
                     - Integrated JSpdf & html2canvas to allow the user to save the page as a pdf file <br/>
                     - Interactive user experience to get the results they want in a fun way and save the end result <br/>
-                    Project Link: <a href='https://github.com/R2DEV0/TheRandomizer' target = "_blank"> TheRandomizer/Github </a> <br/>
-                    Demo Video Link: <a href="https://www.youtube.com/watch?v=VNNPs1vPOEU" target = "_blank"> TheRandomizer/YouTube </a>
+                    Project Link: <a href='https://github.com/R2DEV0/TheRandomizer' target = "_blank" rel="noopener noreferrer"> TheRandomizer/Github </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=VNNPs1vPOEU" target = "_blank" rel="noopener noreferrer"> TheRandomizer/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Contract   Manager — Shipment   Tracking   App   (Python/Django)</span> <br/>
                     A truck/shipment tracking application created by my team and I over a few days. It is intended to be used by trucking brokers for customer shipments across the US. <br/>
@@ -91,8 +91,8 @@ export default (props) =>{
                     - Integrated client-side validations with HTML and server-side validations with Bcrypt for enhanced security <br/>
                     - Customer, Carrier, and Contract creating, editing, archiving, deleting, sorting, and searching. (CRUD) <br/>
                     - Designed an easy, clean, and organizational way for keeping daily operations running <br/>
-                    Project Link: <a href='https://github.com/John-W-Stevens/contract_manager' target = "_blank"> Contract Manager </a> <br/>
-                    Demo Video Link: <a href="https://www.youtube.com/watch?v=0Yw_jhaeoKQ" target = "_blank"> ContractManager/YouTube </a>
+                    Project Link: <a href='https://github.com/John-W-Stevens/contract_manager' target = "_blank" rel="noopener noreferrer"> Contract Manager </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=0Yw_jhaeoKQ" target = "_blank" rel="noopener noreferrer"> ContractManager/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Quiz of Death — Fun Quiz App (JavaScript/MERN)</span> <br/>
                     This is a  small quiz application built with React and MongoDB for users to answer random questions stored in the database. <br/>
@@ -101,8 +101,8 @@ export default (props) =>{
                     - Constructed a random unique question generator that pulls from the mongo database using javaScript and axios <br/>
                     - The app allows for the user to add and/or delete quiz questions using API calls to the server. (CRUD)<br/>
                     - Applied npm software and reactive score display for the quiz results page after quiz has been completed <br/>
-                    Project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank"> Quiz of Death </a> <br/>
-                    Demo Video Link: <a href="https://www.youtube.com/watch?v=BTSPdzB03os" target = "_blank"> QuizOfDeath/YouTube </a>
+                    Project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank" rel="noopener noreferrer"> Quiz of Death </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=BTSPdzB03os" target = "_blank" rel="noopener noreferrer"> QuizOfDeath/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Angry Duck Game (C#/Unity)</span> <br/>
                     My first game created using Unity and C#. <br/>
@@ -110,16 +110,16 @@ export default (props) =>{
                     - Interactive game allowing the user to launch a duck into enemies and obsticles <br/>
                     - Classes for enemies, player, objects, backgrounds, start menu, and level changes for the real game experience <br/>
                     - Added audio background throughout all levels, sound effects when an enemy is hit, and responsive level changer <br/>
-                    Project Link: <a href='https://github.com/R2DEV0/Angry_Duck_Game' target = "_blank"> Angry Duck Game </a> <br/>
-                    Demo Video Link: <a href="https://www.youtube.com/watch?v=4MFQ0GUr310" target = "_blank"> AngryDuckGame/YouTube </a>
+                    Project Link: <a href='https://github.com/R2DEV0/Angry_Duck_Game' target = "_blank" rel="noopener noreferrer"> Angry Duck Game </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=4MFQ0GUr310" target = "_blank" rel="noopener noreferrer"> AngryDuckGame/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>More Projects!</span> <br/>
-                    My City Faves (Django/Python): <a href='https://github.com/R2DEV0/My_Faves' target = "_blank"> Project Link </a> | 
-                    <a href="https://www.youtube.com/watch?v=MRP8GvE2oRU"> Demo Video</a><br/>
-                    Portfolio (MERN): <a href='https://github.com/R2DEV0/Profile' target = "_blank"> Project Link </a><br/>
-                    Email Blaster 3000 (Django/Python): <a href='https://github.com/R2DEV0/Email_Blaster_3000' target = "_blank"> Project Link </a> |
-                    <a href="https://www.youtube.com/watch?v=ybdFvU1d57k" target = "_blank"> Demo Video</a> |
-                    <a href="http://13.58.193.155/" target = "_blank"> Live Site</a><br/>
+                    My City Faves (Django/Python): <a href='https://github.com/R2DEV0/My_Faves' target = "_blank" rel="noopener noreferrer"> Project Link </a> | 
+                    <a href="https://www.youtube.com/watch?v=MRP8GvE2oRU" target = "_blank" rel="noopener noreferrer"> Demo Video</a><br/>
+                    Portfolio (MERN): <a href='https://github.com/R2DEV0/Profile' target = "_blank" rel="noopener noreferrer"> Project Link </a><br/>
+                    Email Blaster 3000 (Django/Python): <a href='https://github.com/R2DEV0/Email_Blaster_3000' target = "_blank" rel="noopener noreferrer"> Project Link </a> |
+                    <a href="https://www.youtube.com/watch?v=ybdFvU1d57k" target = "_blank" rel="noopener noreferrer"> Demo Video</a> |
+                    <a href="http://13.58.193.155/" target = "_blank" rel="noopener noreferrer"> Live Site</a><br/>
                 </p>
                 <hr/>
                 <h4 style={{color:'red'}}>Professional Experience</h4>

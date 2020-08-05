@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-const port = 4444;
+const port = 8000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.listen(port, () => {
-    console.log('We are live on port 4444');
+    console.log('We are live on port 8000');
 });
 
 app.post('/api/v1', (req,res) => {

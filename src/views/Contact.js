@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import './Contact.css';
 import { Alert } from 'reactstrap';
-import { Link, navigate } from '@reach/router';
+import { Link } from '@reach/router';
 import {Collapse,Navbar,NavbarToggler,Nav,NavItem,NavLink} from 'reactstrap';
 import Logo1 from '../LinkedIn2.png';
 import Logo2 from '../Github2.png';
@@ -15,7 +15,6 @@ export default () =>{
     const[message, setMessage] = useState('');
     const[name, setName] = useState('');
     const[email, setEmail] = useState('')
-    const [sent,setSent] = useState(false);
     const [show, setShow] = useState(false);
 
     const HoverIn = (e) => {};
@@ -25,7 +24,7 @@ export default () =>{
 
     const formSubmit = (e, message, email, name) =>{
         e.preventDefault()
-        axios.post('http://localhost:4444/api/v1', {message, email, name})
+        axios.post('http://localhost:8000/api/v1', {message, email, name})
         .then( res => {
             {setName('') 
             setEmail('') 
@@ -49,7 +48,7 @@ export default () =>{
                             </NavItem>
                             <li class="nav-link"> </li>
                             <Fade top><NavItem className="mt-3">  
-                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/">
+                            <a target = "_blank" href="https://www.linkedin.com/in/kevin-chancey-a736169b/" rel="noopener noreferrer">
                                     <img src={Logo1} style={{height:"30px"}} 
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -58,7 +57,7 @@ export default () =>{
                             </NavItem></Fade>
                             <li class="nav-link"> </li>
                             <Fade bottom><NavItem className="mt-3">
-                                <a href="https://github.com/R2DEV0" target = "_blank">
+                                <a href="https://github.com/R2DEV0" target = "_blank" rel="noopener noreferrer">
                                     <img src={Logo2} style={{height:"30px"}}
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -80,7 +79,7 @@ export default () =>{
             </div>
 
             {show ?
-            <Alert variant="success" className='alert' onClose={() => setShow(false)} dismissible >
+            <Alert variant="success" className='alert' onClose={() => setShow(false)}>
                     <h4 className='text-center'>
                         Email Sent! <br/> I will get back to you as soon as possible
                     </h4>
