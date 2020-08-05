@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Resume.css';
 import { Link } from '@reach/router';
-import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem,NavbarText} from 'reactstrap';
+import {Collapse,Navbar,NavbarToggler,Nav,NavItem,NavLink} from 'reactstrap';
 import Logo1 from '../LinkedIn2.png';
 import Logo2 from '../Github2.png';
 import Logo3 from '../mail2.png';
@@ -20,7 +20,7 @@ export default (props) =>{
     return(
         <div>
             <div>
-            <Navbar className="navbar navbar-dark bg-dark" light expand="md">
+                <Navbar className="navbar navbar-dark bg-dark" light expand="md">
                     <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
@@ -47,7 +47,7 @@ export default (props) =>{
                             </NavItem></Fade>
                             <li class="nav-link"> </li>
                             <Fade right><NavItem className="mt-3">
-                                <a href="mailto:r2devo@gmail.com">
+                                <a href="/contactme">
                                     <img src={Logo3} style={{height:"30px", borderRadius:"5px"}}
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -80,7 +80,8 @@ export default (props) =>{
                     - Added the ability for the user to turn on/off the extra icons feature <br/>
                     - Integrated JSpdf & html2canvas to allow the user to save the page as a pdf file <br/>
                     - Interactive user experience to get the results they want in a fun way and save the end result <br/>
-                    Project Link: <a href='https://github.com/R2DEV0/TheRandomizer' target = "_blank"> TheRandomizer/Github </a> 
+                    Project Link: <a href='https://github.com/R2DEV0/TheRandomizer' target = "_blank"> TheRandomizer/Github </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=VNNPs1vPOEU" target = "_blank"> TheRandomizer/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Contract   Manager — Shipment   Tracking   App   (Python/Django)</span> <br/>
                     A truck/shipment tracking application created by my team and I over a few days. It is intended to be used by trucking brokers for customer shipments across the US. <br/>
@@ -89,8 +90,9 @@ export default (props) =>{
                     - Constructed responsive login and registration page using Python with Django  <br/>
                     - Integrated client-side validations with HTML and server-side validations with Bcrypt for enhanced security <br/>
                     - Customer, Carrier, and Contract creating, editing, archiving, deleting, sorting, and searching. (CRUD) <br/>
-                    - Designed an easy, clean, and organizational way for keeping daily operations running <br/>  
-                    Project Link: <a href='https://github.com/John-W-Stevens/contract_manager' target = "_blank"> Contract Manager </a> 
+                    - Designed an easy, clean, and organizational way for keeping daily operations running <br/>
+                    Project Link: <a href='https://github.com/John-W-Stevens/contract_manager' target = "_blank"> Contract Manager </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=0Yw_jhaeoKQ" target = "_blank"> ContractManager/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Quiz of Death — Fun Quiz App (JavaScript/MERN)</span> <br/>
                     This is a  small quiz application built with React and MongoDB for users to answer random questions stored in the database. <br/>
@@ -99,7 +101,8 @@ export default (props) =>{
                     - Constructed a random unique question generator that pulls from the mongo database using javaScript and axios <br/>
                     - The app allows for the user to add and/or delete quiz questions using API calls to the server. (CRUD)<br/>
                     - Applied npm software and reactive score display for the quiz results page after quiz has been completed <br/>
-                    project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank"> Quiz of Death </a> 
+                    Project Link: <a href='https://github.com/R2DEV0/Quiz_of_Death' target = "_blank"> Quiz of Death </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=BTSPdzB03os" target = "_blank"> QuizOfDeath/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>Angry Duck Game (C#/Unity)</span> <br/>
                     My first game created using Unity and C#. <br/>
@@ -107,12 +110,16 @@ export default (props) =>{
                     - Interactive game allowing the user to launch a duck into enemies and obsticles <br/>
                     - Classes for enemies, player, objects, backgrounds, start menu, and level changes for the real game experience <br/>
                     - Added audio background throughout all levels, sound effects when an enemy is hit, and responsive level changer <br/>
-                    - Project Link: <a href='https://github.com/R2DEV0/Angry_Duck_Game' target = "_blank"> Angry Duck Game </a> 
+                    Project Link: <a href='https://github.com/R2DEV0/Angry_Duck_Game' target = "_blank"> Angry Duck Game </a> <br/>
+                    Demo Video Link: <a href="https://www.youtube.com/watch?v=4MFQ0GUr310" target = "_blank"> AngryDuckGame/YouTube </a>
                 </p>
                 <p><span style={{fontWeight:"bold"}}>More Projects!</span> <br/>
-                    My City Faves (Django/Python): <a href='https://github.com/R2DEV0/My_Faves' target = "_blank"> Project Link </a><br/>
+                    My City Faves (Django/Python): <a href='https://github.com/R2DEV0/My_Faves' target = "_blank"> Project Link </a> | 
+                    <a href="https://www.youtube.com/watch?v=MRP8GvE2oRU"> Demo Video</a><br/>
                     Portfolio (MERN): <a href='https://github.com/R2DEV0/Profile' target = "_blank"> Project Link </a><br/>
-                    Email Blaster 3000 (Django/Python): <a href='https://github.com/R2DEV0/Email_Blaster_3000' target = "_blank"> Project Link </a><br/>
+                    Email Blaster 3000 (Django/Python): <a href='https://github.com/R2DEV0/Email_Blaster_3000' target = "_blank"> Project Link </a> |
+                    <a href="https://www.youtube.com/watch?v=ybdFvU1d57k" target = "_blank"> Demo Video</a> |
+                    <a href="http://13.58.193.155/" target = "_blank"> Live Site</a><br/>
                 </p>
                 <hr/>
                 <h4 style={{color:'red'}}>Professional Experience</h4>
@@ -152,6 +159,9 @@ export default (props) =>{
                 </p>
             </FadeIn>
             </div>
+            <footer className='footer'>
+                <p>© 2020 Kevin Chancey - <a href="http://kevinchancey.xyz" target="_blank" rel="noopener noreferrer">Check Me Out</a></p>
+            </footer>
         </div>
     </div>
     )

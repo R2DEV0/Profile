@@ -4,7 +4,7 @@ import './Main.css';
 import { Link } from '@reach/router';
 import Pic from '../quizpic.png';
 import Pic2 from '../Contract.png';
-import Pic3 from '../OverTime.jpg';
+import Pic3 from '../DCAP.png';
 import Logo1 from '../LinkedIn2.png';
 import Logo2 from '../Github2.png';
 import Logo3 from '../mail2.png';
@@ -50,7 +50,7 @@ export default () =>{
                             </NavItem></Fade>
                             <li class="nav-link"> </li>
                             <Fade right><NavItem className="mt-3">
-                                <a href="mailto:r2devo@gmail.com">
+                                <a href="/contactme">
                                     <img src={Logo3} style={{height:"30px", borderRadius:"5px"}}
                                         onMouseEnter={(e) => HoverIn(e.target.style.height = '32px', e.target.style.width ='auto')} 
                                         onMouseLeave={(e) => HoverOut(e.target.style.height = '30px', e.target.style.width ='auto')}>
@@ -66,7 +66,7 @@ export default () =>{
             <div className="col-10 offset-1 text-center Kevin">
             <FadeIn delay='150' transitionDuration='800'>
                 <h1 id="main"><span style={{color:"red", fontWeight:"bold"}}>Hey</span> I'm Kevin</h1>
-                <p> I am a Full-Stack web developer with experience working in: <br/> Python(Django) - C#(Entity, LinQ, .Net, ASP.NET) - (MERN) MongoDB, Express, React, Node.js
+                <p> I am a Full-Stack web developer with experience working in: <br/> Python(Django) - C#(Entity, LINQ, .Net, ASP.NET) - (MERN) MongoDB, Express, React, Node.js
                 </p>
                 My Story:
                 <p> After leaving my hometown of Las <span style={{color:"red", fontWeight:"bold"}}>Vegas</span> to join the Air Force, I began my life journey in Alaska, working in transportation. I spent the next 
@@ -106,7 +106,6 @@ export default () =>{
                     <ReactTooltip id='differenciator' place="bottom" type='success' effect="float">
                         <span>
                             Small randomizer app for school curriculums <br/> being adopted accross the world!<br/>
-                            * Work in progress for customer *
                         </span>
                     </ReactTooltip>
                     <ReactTooltip id='contract' place="bottom" type='info' effect="float">
@@ -117,12 +116,15 @@ export default () =>{
                     </ReactTooltip>
                     <ReactTooltip id='Quiz' place="bottom" type='warning' effect="float">
                         <span>
-                            Quiz app deployed with AWS
+                            Full-stack MERN Quiz app
                         </span>
                     </ReactTooltip>
                 </div>
             </div>
         </div>
+        <footer className='footer'>
+            <p>© 2020 Kevin Chancey - <a href="http://kevinchancey.xyz" target="_blank" rel="noopener noreferrer">Check Me Out</a></p>
+        </footer>
     </div>
     )
 };

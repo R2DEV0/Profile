@@ -4,8 +4,7 @@ import Main from './views/Main';
 import Resume from './views/Resume';
 import { Router } from '@reach/router';
 import ParticlesBg from 'particles-bg';
-
-
+import Contact from './views/Contact';
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <Router>
         <Main path = '/'/>
         <Resume path = '/resume'/>
+        <Contact path ='contactme'/>
       </Router>
     </div>
   );
